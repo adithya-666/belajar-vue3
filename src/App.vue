@@ -25,6 +25,11 @@ function addMemo() {
   showForm.value = false;
   errorMessage.value = '';
 }
+
+
+function deleteMemo(id){
+  memos.value = memos.value.filter((memo) => memo.id !== id);
+}
 </script>
 
 <template>
@@ -40,6 +45,7 @@ function addMemo() {
                   {{ memo.memo }}
                   </p>
                   <p class="card-date">{{ memo.date }}</p>
+                  <button class="delete-button" @click="deleteMemo(memo.id)">X</button>
               </div>
             </div>
         </div>
