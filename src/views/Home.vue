@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router';
         <div class="product">
             <RouterLink v-for="product in Products"
             :key="product.id"
-            :to="`/product/${product.id}/owner`"
+            :to="`/product/${product.id}`"
              > {{ product.name }}</RouterLink> 
         </div>
 </template>

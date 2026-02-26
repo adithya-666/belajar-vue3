@@ -9,13 +9,17 @@ const router = createRouter({
             component: () => import('../views/Home.vue'),
         },
         {
+            path: "/home",
+            redirect: "/"
+        },
+        {
             path: "/product/:id",
             name: "Product",
             component: () => import('../views/Product.vue'),
             children: [
                 {
                     path: "owner",
-                    name: "Owner",
+                    name: "owner",
                     component: () => import('../views/Owner.vue'),
                 }
             ]
@@ -24,6 +28,11 @@ const router = createRouter({
             path: "/about",
             name: "About",
             component: () => import('../views/About.vue'),
+        },
+        {
+            path: "/:catchAll(.*)",
+            name: "NotFound",
+            component: () => import('../errors/404.vue'),
         }
     ]
 });
