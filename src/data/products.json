@@ -1,0 +1,12 @@
+[
+    { "id" : 1, "name": "Laptop", "price": 1200, "year" : 2020, "owner" : { "name": "John Doe", "email": " xNv0l@example.com" } },
+    { "id" : 2, "name": "Smartphone", "price": 800, "year" : 2021, "owner" : { "name": "Jane Smith", "email": "xNv0l@example.com" } },
+    { "id" : 3, "name": "Tablet", "price": 500, "year" : 2019, "owner" : { "name": "Alice Johnson", "email": "xNv0l@example.com" } },
+    { "id" : 4, "name": "Headphones", "price": 150, "year" : 2022, "owner" : { "name": "Bob Wilson", "email": "xNv0l@example.com" } },
+    { "id" : 5, "name": "Smartwatch", "price": 250, "year" : 2021, "owner" : { "name": "Charlie Brown", "email": "xNv0l@example.com" } },
+    { "id" : 6, "name": "Camera", "price": 900, "year" : 2020, "owner" : { "name": "David Lee", "email": "xNv0l@example.com" }},
+    { "id" : 7, "name": "Printer", "price": 300, "year" : 2018, "owner" : { "name": "Eve Davis", "email": "Eve@gmail.com"}},
+    { "id" : 8, "name": "Monitor", "price": 400, "year" : 2021, "owner" : { "name": "Frank Miller", "email": "xNv0l@example.com" }},
+    { "id" : 9, "name": "Keyboard", "price": 100, "year" : 2019, "owner" : { "name": "Grace Wilson", "email": "xNv0l@example.com" }},
+    { "id" : 10, "name": "Mouse", "price": 50, "year" : 2020, "owner" : { "name": "Hank Taylor", "email": "xNv0l@example.com" }}
+]
